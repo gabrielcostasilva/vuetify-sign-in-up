@@ -11,6 +11,10 @@ This is a sign in/sign up page made out of Vuetify components. This is just a sh
 
 The main page consists of two main `window` elements. The `window` component controls the transitions.
 
+## Branch Features
+
+This branch breaks down the original structure into two individual components: `Signin` and `Signup`. In a nutshell, each `v-window-item` became a component. This change, demanded using events. This can be further improved by using slots. Checkout commits to see the changes.
+
 ## Project setup
 ```
 yarn install
